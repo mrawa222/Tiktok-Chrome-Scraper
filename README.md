@@ -17,34 +17,34 @@ Due to TikTok limitations caused by the anti-botting measures, the only way to s
 
 Before running the program, install dependencies:
 
-pip install pandas pytz openpyxl playwright
-playwright install
+- pip install pandas pytz openpyxl playwright
+- playwright install
 
 Configuration (before running change those):
 
-USERNAME = "insertthename" # Here insert the TikTok name that is after @
+- USERNAME = "insertthename" # Here insert the TikTok name that is after @
 
-SCROLL_TIMES = 100 # the number of scrolls that the scraper will do, test first with a smaller amount
+- SCROLL_TIMES = 100 # the number of scrolls that the scraper will do, test first with a smaller amount
 
-CHROME_PATH = "C:/example"  # Update to your Chrome .exe path
+- CHROME_PATH = "C:/example"  # Update to your Chrome .exe path
 
-CHROME_PROFILE = "Profile X"  # Update to your chrome profile
+- CHROME_PROFILE = "Profile X"  # Update to your chrome profile
 
-USER_DATA_DIR = "C:/example"  # Update to your actual user data path
+- USER_DATA_DIR = "C:/example"  # Update to your actual user data path
 
 
 and
 
 
-df.to_excel("tiktok_video_dates_with_metrics.xlsx", index=False) # change here the name of a final file
+- df.to_excel("tiktok_video_dates_with_metrics.xlsx", index=False) # change here the name of a final file
 
-print("Saved to tiktok_video_dates_with_metrics.xlsx")
+- print("Saved to tiktok_video_dates_with_metrics.xlsx")
 
 
 
 Usage/Run this script:
 
-python tiktok_scraper_example.py
+- python tiktok_scraper_example.py
 
 What it does:
 - Opens a Chrome window with your profile.
