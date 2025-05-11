@@ -5,6 +5,7 @@ Requirements:
 - Python 3.8+
 - Google Chrome (desktop installation)
 - A valid Chrome user profile with access to TikTok
+
 Installed Python packages:
 - playwright
 - pandas
