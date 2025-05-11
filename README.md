@@ -58,7 +58,7 @@ What it does:
 
 Notes:
 
-- This script mimics human interaction using your actual Chrome profile. Use responsibly.
+- This script mimics human interaction using your actual Chrome profile. Please use responsibly.
 - TikTok may change its structure at any time, which could break the code.
 - Avoid scraping accounts at a large scale without previous permission to not break the TikTok terms of service.
 
